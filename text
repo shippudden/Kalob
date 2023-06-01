@@ -1,0 +1,34 @@
+JSON - JAVASCRIPT OBJECT NOTATION
+
+JavaScript Object Notation, more commonly known by the acronym JSON, is an open data interchange format that is both human and machine-readable. Despite the name JavaScript Object Notation, JSON is independent of any programming language and is a common API output in a wide variety of applications
+
+ERROR METHOD
+
+.TypeError
+The TypeError object represents an error when an operation could not be performed, typically (but not exclusively) when a value is not of the expected type. A TypeError may be thrown when: an operand or argument passed to a function is incompatible with the type expected by that operator or function
+
+.Reference Error
+In essence, a reference error occurs when JavaScript tries to access a variable that doesn't exist, hasn't been defined, or doesn't exist in the current scope from which you are trying to access it
+
+.Syntax Error
+A SyntaxError is a type of error that is thrown when there is a typo in the code, creating invalid code - code which cannot be interpreted by the compiler. Some common causes of a SyntaxError are: Missing opening or closing brackets, braces, or parentheses. Missing or invalid semicolons
+
+.Logical Error
+Logic errors: These are errors where the syntax is actually correct but the code is not what you intended it to be, meaning that program runs successfully but gives incorrect results. These are often harder to fix than syntax errors, as there usually isn't an error message to direct you to the source of the error.
+
+.Runtime Error
+A JavaScript runtime error is an error that occurs within code while its being executed. Some runtime errors are built-in objects in JavaScript with a name and message property. Any code after a thrown runtime error will not be evaluated.
+
+
+WEB STORAGE API
+The Web Storage API extends the Window object with two new properties — Window. sessionStorage and Window. localStorage — which provide access to the current domain's session and local Storage objects respectively, and a storage event handler that fires when a storage area changes (e.g., a new item is stored).
+
+
+What are modules in JavaScript?
+JavaScript modules allow you to break up your code into separate files. This makes it easier to maintain a code-base. Modules are imported from external files with the import statement. Modules also rely on type="module" in the <script> tag
+
+What is modular JavaScript?
+JavaScript Modules – Explained with Examples
+A module in JavaScript is just a file containing related code. In JavaScript, we use the import and export keywords to share and receive functionalities respectively across different modules. The export keyword is used to make a variable, function, class or object accessible to other modules
+
+Overview. The @alias tag causes JSDoc to treat all references to a member as if the member had a different name. This tag is especially useful if you define a class within an inner function; in this case, you can use the @alias tag to tell JSDoc how the class is exposed in your app

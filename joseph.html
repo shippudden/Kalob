@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./joseph.css">
+</head>
+<body>
+    <form id="signupForm">
+        <div class="labelAndInputBox">
+            <label for="">Enter fullname</label>
+            <input type="text" name="fullname" id="fullname">
+            <i class="fa-solid fa-circle-exclamation" id="fullNameExclamation"></i>
+            <i class="fa-solid fa-circle-check" id="fullNameSuccess"></i>
+            <p id="fullNameErrorMessage"></p>
+        </div>
+
+        <div class="labelAndInputBox">
+            <label for="">Enter email address</label>
+            <input type="email" name="email" id="emailField">
+            <i class="fa-solid fa-circle-exclamation" id="emailExclamation"></i>
+            <i class="fa-solid fa-circle-check" id="emailSuccess"></i>
+            <p id="emailErrorMessage"></p>
+        </div>
+
+        <div class="labelAndInputBox">
+            <label for="">Enter email address</label>
+            <input type="password" name="password" id="passwordField">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <p id="passwordErrorMessage"></p>
+        </div>
+
+        <button id="button" type="submit">Create account</button>
+    </form>
+
+    <script src="joseph.js"></script>
+</body>
+</html>
